@@ -1,0 +1,116 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    background-color: lightblue;
+}
+nav ol{
+    list-style-type: none;
+}
+nav ol li a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 20%;
+}
+header h1{
+    text-align: center;
+    color: rgba(0.0.0.0,3);
+}
+header,h5{
+    text-align: center;
+    margin-top: 5px;
+    color: gray;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: lightgray;
+}
+main{
+    height: 100vh;
+}
+.galleryrow1{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    width: 100%;
+    background-color: red;
+    height: 70%;
+}
+.dubbel{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: rebeccapurple;
+    height: 100%;
+}
+.galleryrow1 .dubbel img{
+height: 50%;
+width: 100%;
+}
+.galleryrow1 img{
+    width: calc(100% / 3);
+    height: 100%;
+    margin: 0;
+}
+.galleryrow2{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+}
+.galleryrow2 img{
+    width: calc(100% / 3);
+    height: 100%;
+    margin: 0;
+}
+.galleryrow3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height:100%;
+}
+.galleryrow3 .rijfoto1 img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.galleryrow3 .rijfoto2 img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+footer{
+    margin-top: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-left: 47%;
+}
+.icons img{
+    width:25px;
+    height:25px;
+    display: flex;
+    margin-right: 5px;
+}
+
